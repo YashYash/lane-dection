@@ -45,7 +45,7 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 
 ### 2. Identify potential shortcomings with your current pipeline
 
-1. After testing with the challenge video which was comprised of shadows and a few frames where the road changed and
+1. After testing with the challenge video which was comprised of shadows and a few frames where the road changed
   color when driving over a bridge, it is safe to say the current pipeline cannot handle shadows which add lines to the scene
   that are picked up by the hough transform algorithm.
 2. Also if the road was curved, ex. going around a round about, the lane lines would cross over each other. The current solution
@@ -53,9 +53,10 @@ In order to draw a single line on the left and right lanes, I modified the draw_
   to create a path of a lane that is not just straight.
 
 ### 3. Suggest possible improvements to your pipeline
+
 1. Handling curved lanes
 2. Being able to filter out shadows
 3. Have the image mask be dynamic. If the car goes over a bump, the car should use a sensor (ex. gyro) to recalibrate,
   by adjusting the mask polygon to always stay focused on the road
-4. Right now the solution only works for a front facing camera. It would be ideal to create an algorith that takes
-  the position, rotation and focal length as inputs. And then dynamically adjusts the mask polygon to detech lanes
+4. Right now the solution only works for a front facing camera. It would be ideal to create an algorithm that takes
+  the position, rotation and focal length as inputs. And then dynamically adjusts the mask polygon to detech lanes.
