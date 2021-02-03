@@ -6,8 +6,8 @@ The goals / steps of this project are the following:
 
 
 [//]: # (Image References)
-[image1]: ./test_images/solidYellowCurve.jpg "Example input image"
-[image2]: ./test_images_with_lines/formatted-solidYellowCurve.jpg "Example input image"
+[image1]: ./test_images/solidWhiteRight.jpg "Example input image"
+[image2]: ./test_images_with_lines/formatted-solidWhiteRight.jpg "Example input image"
 
 ---
 
