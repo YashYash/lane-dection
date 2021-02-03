@@ -59,4 +59,4 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 3. Have the image mask be dynamic. If the car goes over a bump, the car should use a sensor (ex. gyro) to recalibrate,
   by adjusting the mask polygon to always stay focused on the road
 4. Right now the solution only works for a front facing camera. It would be ideal to create an algorithm that takes
-  the position, rotation and focal length as inputs. And then dynamically adjusts the mask polygon to detech lanes.
+  the camera position, rotation and focal length as inputs. And then dynamically adjusts the mask polygon to detech lanes.
